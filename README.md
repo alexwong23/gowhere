@@ -27,45 +27,30 @@ User Flow Diagram:
 ![Nutritonix Integration Diagram](https://github.com/alexwong23/mealbox-app/blob/master/wdi6_presentation/nutritonix_api_integration.jpg)
 
 ## What's next?
-1. Admin Panel Build-out: Add tracking of payment logs
-2. Featured Recipes based on likes/views
-3. Add commenting functionality to recipe pages
-
-## Known Bugs
-1. If transaction is updated wrongly, it goes back to transactions/:id when it's supposed to go back to transactions/:id/edit
-2. Devise-related: Signing up new user with existing email address comes up with an incomplete error message
+1. Change join event button if user has already joined event
+2. Include event capacity
+3. Host view event participation
 
 ## What was used?
 
-Frontend: Bootstrap, Masonry, Javascipt/jQuery,
-Backend: Ruby On Rails, SQL Lite3
-External APIs: GoogleMaps API, Nutrionix API, Braintree Payment API
-Hosted on Heroku
-
-For full list of Dependencies, refer to the Gemfile.
+Frontend: Bootstrap, Angular 2
+Backend: NodeJS, Express, MongoDB
 
 ## Credits
 
-Many thanks go to our wonderful instructors & coursemates from General Assembly Singapore for their help and support.
+Many thanks go to the wonderful instructors & coursemates from General Assembly Singapore for their help and support.
+Shoutout to Maximilian Schwarzmüller for his great tutorial on MEAN in Udemy
+https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/
 
-## How to deploy to heroku
+## How to run/test app
 1. git fork the repo into your own github
 2. git clone it into your directory
-3. git checkout heroku
+3. npm install
+4. npm run build & npm start (together)
+
+## How to deploy to heroku
+1. Follow the FOUR steps above
+2. git checkout master
+3. npm run build:prod
 4. heroku create [insert name of yr heroku app]
-5. git push heroku heroku:master **
-6. heroku run rake db:migrate
-7. heroku run rake db:seed
-
-At this point yr separate app should be good to go.
-
-If you nd to reset the postgres db that heroku uses in production:
-`heroku pg:reset DATABASE_URL --confirm [your app name]`
-
-To see more info on the heroku postgres db of yr app:
-`heroku pg:info`
-
-**NOTE: this step is different from yr typical git push heroku master, because we are pushing yr local heroku branch to your heroku’s host master branch
-
-[10:42]  
-did the deployment based off this https://glencbz.gitbooks.io/wdi-6-reference/content/unit-3/rails/deployment.html
+5. git push heroku master
