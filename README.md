@@ -42,7 +42,7 @@ Backend: NodeJS, Express, MongoDB
 Many thanks go to the wonderful instructors & coursemates from General Assembly Singapore for their help and support.
 
 Shoutout to Maximilian Schwarzmüller for his great tutorial on MEAN in Udemy
-https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/
+* https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/
 
 ## How to run/test app
 1. git fork the repo into your own github
