@@ -40,6 +40,7 @@ Backend: NodeJS, Express, MongoDB
 ## Credits
 
 Many thanks go to the wonderful instructors & coursemates from General Assembly Singapore for their help and support.
+
 Shoutout to Maximilian Schwarzmüller for his great tutorial on MEAN in Udemy
 https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/
 
