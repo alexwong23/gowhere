@@ -34,6 +34,7 @@ User Flow Diagram:
 ## What was used?
 
 Frontend: Bootstrap, Angular 2
+
 Backend: NodeJS, Express, MongoDB
 
 ## Credits
