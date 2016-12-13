@@ -18,11 +18,11 @@ Now with GoWhere, people can view events happening in Singapore and join the eve
 
 Entity Relationship Diagram:
 
-![ERD](https://github.com/alexwong23/gowhere/public/img/erd.png)
+![ERD](https://github.com/alexwong23/gowhere/blob/master/public/img/erd.png)
 
 User Story:
 
-![User Story](https://github.com/alexwong23/gowhere/public/img/userstory.png)
+![User Story](https://github.com/alexwong23/gowhere/blob/master/public/img/userstory.png)
 
 ## What's next?
 1. Change join event button if user has already joined event
