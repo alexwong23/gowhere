@@ -24,6 +24,8 @@ User Story:
 
 ![User Story](https://github.com/alexwong23/gowhere/blob/master/public/img/userstory.png)
 
+![User Story](https://github.com/alexwong23/gowhere/blob/master/public/img/mean.png)
+
 ## What's next?
 1. Change join event button if user has already joined event
 2. Include event capacity
@@ -34,6 +36,8 @@ User Story:
 Frontend: Bootstrap, Angular 2
 
 Backend: NodeJS, Express, MongoDB
+
+Validation: Tokens, Local Storage
 
 ## Credits
 
