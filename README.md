@@ -18,13 +18,11 @@ Now with GoWhere, people can view events happening in Singapore and join the eve
 
 Entity Relationship Diagram:
 
-![ERD](https://github.com/alexwong23/mealbox-app/blob/master/wdi6_presentation/ERD.jpg)
+![ERD](https://github.com/alexwong23/gowhere/public/img/erd.png)
 
-User Flow Diagram:
+User Story:
 
-![User Flow Diagram](https://github.com/alexwong23/mealbox-app/blob/master/wdi6_presentation/user_flow_diagram.jpg)
-
-![Nutritonix Integration Diagram](https://github.com/alexwong23/mealbox-app/blob/master/wdi6_presentation/nutritonix_api_integration.jpg)
+![User Story](https://github.com/alexwong23/gowhere/public/img/userstory.png)
 
 ## What's next?
 1. Change join event button if user has already joined event
