@@ -62,7 +62,7 @@ export class AuthService {
         // return localStorage.getItem('token') !== null;
 
         // changed to token not expired from angular2-jwt package
-        return tokenNotExpired();
+        return tokenNotExpired('token');
     }
 
     // checks if a user is a host, using local storage token
