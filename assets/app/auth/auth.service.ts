@@ -59,10 +59,10 @@ export class AuthService {
     // checks if a user is logged in, using local storage token
     isLoggedIn() {
         // had an issue with token expiry and token null, inconsistent view
-        return localStorage.getItem('token') !== null && tokenNotExpired();
+        return localStorage.getItem('token') !== null;
 
         // changed to token not expired from angular2-jwt package
-        // return ;
+        // return tokenNotExpired();
     }
 
     // checks if a user is a host, using local storage token
