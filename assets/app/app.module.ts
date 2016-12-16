@@ -26,7 +26,7 @@ import { ErrorService } from "./errors/error.service";
 import { ActService } from "./acts/act.service";
 
 // for authentication in auth service, to use for token expiry
-import { AUTH_PROVIDERS } from 'angular2-jwt';
+// import { AUTH_PROVIDERS } from 'angular2-jwt';
 
 @NgModule({
     declarations: [
@@ -52,7 +52,7 @@ import { AUTH_PROVIDERS } from 'angular2-jwt';
         ReactiveFormsModule,
         HttpModule
     ],
-    providers: [AuthService, ErrorService, ActService, AUTH_PROVIDERS],
+    providers: [AuthService, ErrorService, ActService],
     bootstrap: [AppComponent]
 })
 export class AppModule {
